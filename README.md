@@ -14,7 +14,7 @@ This is a simple example of how to create an XLSX file from scratch using Bun.
 bun install
 ```
 
-### 3. Try it out
+### 2. Try it out
 
 ```bash
 bun run playground/main.ts
