@@ -9,13 +9,6 @@ import { escapeXml } from "./helpers";
  * @param workbook - The workbook to convert to XLSX format.
  * 
  * @returns A Uint8Array representing the XLSX file.
- *
- * @example
- * const workbook = new Workbook();
- * const sheet = workbook.addWorksheet("Sheet1");
- * sheet.addRow([new Cell("Hello"), new Cell("World")]);
- * const xlsxFile = buildXlsx(workbook);
- * // Save or use the xlsxFile as needed
  */
 export function buildXlsx(
   workbook: Workbook
